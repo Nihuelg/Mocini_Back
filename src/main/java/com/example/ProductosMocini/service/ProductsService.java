@@ -1,6 +1,7 @@
 package com.example.ProductosMocini.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -37,6 +38,18 @@ public class ProductsService {
             .price(products.getPrice())
             .price_porcent(products.getPrice_porcent())
             .build();
+    }
+
+    public boolean existsByProduct(String product){
+        return productsRepository.existsByProduct(product);
+    }
+
+    public Optional<Products> getByProduct(String product){
+        return productsRepository.findByProduct(product);
+    }
+
+    public Optional<Products> listarID(Long id){
+        return productsRepository.findById(id);
     }
 
     public Products modifProduct(Long id, Products products){
