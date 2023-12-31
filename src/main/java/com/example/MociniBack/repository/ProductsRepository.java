@@ -1,10 +1,10 @@
-package com.example.ProductosMocini.repository;
+package com.example.MociniBack.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.ProductosMocini.models.entity.Products;
+import com.example.MociniBack.models.entity.Products;
 
 
 

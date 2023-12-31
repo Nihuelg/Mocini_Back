@@ -1,13 +1,13 @@
-package com.example.ProductosMocini;
+package com.example.MociniBack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductosMociniApplication {
+public class MociniBackApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductosMociniApplication.class, args);
+		SpringApplication.run(MociniBackApplication.class, args);
 	}
 	
 

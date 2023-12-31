@@ -1,4 +1,4 @@
-package com.example.ProductosMocini.models.dtos;
+package com.example.MociniBack.models.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,12 +10,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 
-public class ProductsRequest {
-    
+public class ProductsDto {
+    private Long id;
+
     private String product;
 
     private float price;
 
     private float price_porcent;
-    
 }

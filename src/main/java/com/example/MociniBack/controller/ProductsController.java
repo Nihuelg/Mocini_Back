@@ -1,4 +1,4 @@
-package com.example.ProductosMocini.controller;
+package com.example.MociniBack.controller;
 
 import java.util.List;
 
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ProductosMocini.models.dtos.ProductsDto;
-import com.example.ProductosMocini.models.dtos.ProductsRequest;
-import com.example.ProductosMocini.models.entity.Products;
-import com.example.ProductosMocini.service.ProductsService;
+import com.example.MociniBack.models.dtos.ProductsDto;
+import com.example.MociniBack.models.dtos.ProductsRequest;
+import com.example.MociniBack.models.entity.Products;
+import com.example.MociniBack.service.ProductsService;
 
 import io.micrometer.common.util.StringUtils;
 import lombok.RequiredArgsConstructor;

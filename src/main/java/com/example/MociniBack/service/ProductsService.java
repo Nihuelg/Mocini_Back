@@ -1,14 +1,14 @@
-package com.example.ProductosMocini.service;
+package com.example.MociniBack.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.example.ProductosMocini.models.dtos.ProductsDto;
-import com.example.ProductosMocini.models.dtos.ProductsRequest;
-import com.example.ProductosMocini.models.entity.Products;
-import com.example.ProductosMocini.repository.ProductsRepository;
+import com.example.MociniBack.models.dtos.ProductsDto;
+import com.example.MociniBack.models.dtos.ProductsRequest;
+import com.example.MociniBack.models.entity.Products;
+import com.example.MociniBack.repository.ProductsRepository;
 
 import lombok.RequiredArgsConstructor;
 
